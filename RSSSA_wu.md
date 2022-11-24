@@ -107,7 +107,7 @@ As you can see it works the same way.
 
 Knowing that our goal is to have 2 polynomials like this one 
 
-x \* (x \* (x * ( ( (a<sub>0</sub> + s)<sup>e</sup>+s)<sup>e</sup>+s)<sup>e</sup> + ( (a<sub>0</sub> + s)<sup>e</sup> + s)<sup>e</sup> )+(a<sub>0</sub> + s)<sup>e</sup> )+a<sub>0</sub> -y = 0 mod N
+x \* (x \* (x * ( ( (a<sub>0</sub> + s)<sup>e</sup>+s)<sup>e</sup>+s)<sup>e</sup> + ( (a<sub>0</sub> + s)<sup>e</sup> + s)<sup>e</sup> )+(a<sub>0</sub> + s)<sup>e</sup> )+a<sub>0</sub> -y mod N
 
 with 2 different x and then take their gcd. Because their common root is `s`, the result of the gcd will be :
 `x +/- s = 0 mod N`
